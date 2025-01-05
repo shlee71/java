@@ -1,0 +1,12 @@
+// make jar
+jar -cvfm myprogram.jar manifest.mf *.class
+
+// check jar
+jar -tvf myprogram.jar
+shlee@centos8:/home/shlee/lang/java/jartest>$ jar -tvf myprogram.jar 
+     0 Thu Jun 06 20:14:12 KST 2024 META-INF/
+    92 Thu Jun 06 20:14:12 KST 2024 META-INF/MANIFEST.MF
+   445 Thu Jun 06 20:10:42 KST 2024 ExampleProgram.class
+ 
+// execution jar
+java -jar myprogram.jar

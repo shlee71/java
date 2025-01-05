@@ -1,0 +1,247 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "ArrayDemo",
+      "request": "launch",
+      "mainClass": "ArrayDemo",
+      "projectName": "src_aa8934ff"
+    },
+    {
+      "type": "java",
+      "name": "CalculatorDemo",
+      "request": "launch",
+      "mainClass": "CalculatorDemo",
+      "projectName": "src_aa8934ff"
+    },
+    {
+      "type": "java",
+      "name": "CalculatorDemo1",
+      "request": "launch",
+      "mainClass": "CalculatorDemo1",
+      "projectName": "src_aa8934ff"
+    },
+    {
+      "type": "java",
+      "name": "CalculatorDemo2",
+      "request": "launch",
+      "mainClass": "CalculatorDemo2",
+      "projectName": "src_aa8934ff"
+    },
+    {
+      "type": "java",
+      "name": "Casting",
+      "request": "launch",
+      "mainClass": "Casting",
+      "projectName": "src_aa8934ff"
+    },
+    {
+      "type": "java",
+      "name": "CharString",
+      "request": "launch",
+      "mainClass": "CharString",
+      "projectName": "src_aa8934ff"
+    },
+    {
+      "type": "java",
+      "name": "ConditionDemo",
+      "request": "launch",
+      "mainClass": "ConditionDemo",
+      "projectName": "src_aa8934ff"
+    },
+    {
+      "type": "java",
+      "name": "ConstructorDemo",
+      "request": "launch",
+      "mainClass": "ConstructorDemo",
+      "projectName": "src_aa8934ff"
+    },
+    {
+      "type": "java",
+      "name": "Datatype",
+      "request": "launch",
+      "mainClass": "Datatype",
+      "projectName": "src_aa8934ff"
+    },
+    {
+      "type": "java",
+      "name": "DialogDemo",
+      "request": "launch",
+      "mainClass": "DialogDemo",
+      "projectName": "src_aa8934ff"
+    },
+    {
+      "type": "java",
+      "name": "EquDemo",
+      "request": "launch",
+      "mainClass": "EquDemo",
+      "projectName": "src_aa8934ff"
+    },
+    {
+      "type": "java",
+      "name": "ForEachDemo",
+      "request": "launch",
+      "mainClass": "ForEachDemo",
+      "projectName": "src_aa8934ff"
+    },
+    {
+      "type": "java",
+      "name": "HelloWorld",
+      "request": "launch",
+      "mainClass": "HelloWorld",
+      "projectName": "src_aa8934ff"
+    },
+    {
+      "type": "java",
+      "name": "HelloWorldApp",
+      "request": "launch",
+      "mainClass": "HelloWorldApp",
+      "projectName": "src_aa8934ff"
+    },
+    {
+      "type": "java",
+      "name": "InputDemo",
+      "request": "launch",
+      "mainClass": "InputDemo",
+      "projectName": "src_aa8934ff"
+    },
+    {
+      "type": "java",
+      "name": "Letter",
+      "request": "launch",
+      "mainClass": "Letter",
+      "projectName": "src_aa8934ff"
+    },
+    {
+      "type": "java",
+      "name": "LoginDemo",
+      "request": "launch",
+      "mainClass": "LoginDemo",
+      "projectName": "src_aa8934ff"
+    },
+    {
+      "type": "java",
+      "name": "MethodDemo",
+      "request": "launch",
+      "mainClass": "MethodDemo",
+      "projectName": "src_aa8934ff"
+    },
+    {
+      "type": "java",
+      "name": "MethodReturn",
+      "request": "launch",
+      "mainClass": "MethodReturn",
+      "projectName": "src_aa8934ff"
+    },
+    {
+      "type": "java",
+      "name": "NotDemo",
+      "request": "launch",
+      "mainClass": "NotDemo",
+      "projectName": "src_aa8934ff"
+    },
+    {
+      "type": "java",
+      "name": "Number",
+      "request": "launch",
+      "mainClass": "Number",
+      "projectName": "src_aa8934ff"
+    },
+    {
+      "type": "java",
+      "name": "OverloadingDemo",
+      "request": "launch",
+      "mainClass": "OverloadingDemo",
+      "projectName": "src_aa8934ff"
+    },
+    {
+      "type": "java",
+      "name": "Program",
+      "request": "launch",
+      "mainClass": "Program",
+      "projectName": "src_aa8934ff"
+    },
+    {
+      "type": "java",
+      "name": "ScannerDemo",
+      "request": "launch",
+      "mainClass": "ScannerDemo",
+      "projectName": "src_aa8934ff"
+    },
+    {
+      "type": "java",
+      "name": "SpecialChar",
+      "request": "launch",
+      "mainClass": "SpecialChar",
+      "projectName": "src_aa8934ff"
+    },
+    {
+      "type": "java",
+      "name": "StringApp",
+      "request": "launch",
+      "mainClass": "StringApp",
+      "projectName": "src_aa8934ff"
+    },
+    {
+      "type": "java",
+      "name": "StringOperation",
+      "request": "launch",
+      "mainClass": "StringOperation",
+      "projectName": "src_aa8934ff"
+    },
+    {
+      "type": "java",
+      "name": "Var",
+      "request": "launch",
+      "mainClass": "Var",
+      "projectName": "src_aa8934ff"
+    },
+    {
+      "type": "java",
+      "name": "Variable",
+      "request": "launch",
+      "mainClass": "Variable",
+      "projectName": "src_aa8934ff"
+    },
+    {
+      "type": "java",
+      "name": "WhileDemo",
+      "request": "launch",
+      "mainClass": "WhileDemo",
+      "projectName": "src_aa8934ff"
+    },
+    {
+      "type": "java",
+      "name": "operator",
+      "request": "launch",
+      "mainClass": "operator",
+      "projectName": "src_aa8934ff"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": false,
+      "cwd": "/home/shlee/lang/java/src/KISA_SEED",
+      "program": "/home/shlee/lang/java/src/KISA_SEED/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
