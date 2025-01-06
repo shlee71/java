@@ -48,7 +48,7 @@ public class SeedCipher {
 		if ( stringKey.length() != 32 ){
 			throw new IllegalArgumentException("Invalid Seed KEY Length : Input String KEY LENGTH  " + stringKey.length());
 		}		
-		this.pbUserKey = stringKey.getBytes();
+		this.pbUserKey = stringToHexBytes(stringKey);
 		this.seedx.SeedRoundKey(this.pdwRoundKey, this.pbUserKey);
 	}
 
@@ -171,4 +171,19 @@ public class SeedCipher {
 
 		return removePadding;
 	}
+	private static byte[] stringToHexBytes(String input) {
+        int length = input.length();
+
+        if ( length % 2 != 0 ) {
+            length = length + 1;
+            input = input + '\n';
+        }
+
+        byte[] hexBytes = new byte[length / 2];
+        for (int i = 0; i < length; i += 2) {
+            hexBytes[i / 2] = (byte) ((Character.digit(input.charAt(i), 16) << 4)
+                    + Character.digit(input.charAt(i + 1), 16));
+        }
+        return hexBytes;
+    }
 }

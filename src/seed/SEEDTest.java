@@ -54,10 +54,12 @@ public class SEEDTest {
         try {
             // TEST KEY String INPUT 
             String keyHex  = "0123456789ABCDEFFEDCBA9876543210";
-            byte[] keyData = stringToHexBytes(keyHex);
+            SeedCipher seed = new SeedCipher(keyHex);
+            //byte[] keyData = stringToHexBytes(keyHex);
+            //SeedCipher seed = new SeedCipher(keyData);
      
             System.out.println();
-            SeedCipher seed = new SeedCipher(keyData);
+
             //Key constructor for hiding in SeedCipher.java :  T : test, P : production
             //SeedCipher seed = new SeedCipher('T');
  
